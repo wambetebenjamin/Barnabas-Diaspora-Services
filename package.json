@@ -1,0 +1,38 @@
+{
+  "name": "barnabas-diaspora-services",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Barnabas Diaspora Services — remittance, investment facilitation, property search and legal services for Kenyans abroad.",
+  "author": "Barnabas Diaspora Services",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "fonts:sync": "node scripts/copy-fonts.mjs"
+  },
+  "dependencies": {
+    "@fontsource/jost": "5.3.0",
+    "@fontsource/open-sans": "5.3.0",
+    "jose": "6.2.12",
+    "lucide-react": "1.53.0",
+    "next": "16.4.0",
+    "nodemailer": "10.0.16",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "sharp": "0.34.5",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.1",
+    "@types/nodemailer": "8.0.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "0.186.0",
+    "typescript": "5.9.3"
+  }
+}
